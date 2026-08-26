@@ -867,3 +867,101 @@ footer p {
     }
 
 }
+
+/* ==============================
+   CTA FINAL
+================================ */
+
+.cta {
+    padding: 120px 8%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #111111,
+            #0a0a0a
+        );
+
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;
+}
+
+.cta-content {
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.cta .section-tag {
+    display: inline-block;
+
+    color: var(--laranja);
+
+    font-size: 13px;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 20px;
+}
+
+.cta h2 {
+    color: var(--branco);
+
+    font-size: clamp(38px, 6vw, 72px);
+
+    line-height: 1.05;
+
+    margin-bottom: 25px;
+}
+
+.cta h2 span {
+    color: var(--laranja);
+}
+
+.cta p {
+    max-width: 650px;
+
+    margin: 0 auto 35px;
+
+    color: var(--cinza);
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+.cta .btn-primary {
+    padding: 17px 35px;
+
+    font-size: 14px;
+}
+
+
+/* ==============================
+   CTA NO CELULAR
+================================ */
+
+@media (max-width: 600px) {
+
+    .cta {
+        padding: 80px 6%;
+    }
+
+    .cta h2 {
+        font-size: 38px;
+    }
+
+    .cta p {
+        font-size: 15px;
+    }
+
+    .cta .btn-primary {
+        width: 100%;
+
+        max-width: 350px;
+    }
+
+}
